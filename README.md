@@ -1,7 +1,11 @@
 # chip-seq
 workflow for bulk chip-seq
 
-The scripts in this repository perform the main tasks involved in aligning and visualizing bulk ChIP-Seq files. They assume each chip file has a control or "input" file for macs comparison to treatment groups.
+The scripts in this repository perform the main steps involved in aligning bulk ChIP-Seq files and visualizing in UCSC genome browser. The basic steps are below:
+
+![Alt text](https://github.com/ctrhodes/chip-seq/blob/master/workflows.png?raw=true "Workflows")
+
+The scripts assume each chip file has a control or "input" file for macs comparison to treatment groups.
 
 Some of the commands, such as in the "macs callpeaks" script are written for broad peaks, such as those seen in H3K27me3 patterns in gene bodies. Adjust these commands as needed.
 
