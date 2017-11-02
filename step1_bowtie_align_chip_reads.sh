@@ -5,6 +5,8 @@ OUT_DIR = "/home/chris/project/chip/s2_aligned"
 
 cd $IN_DIR
 
+#This experiment is for genmoe-wide ChIP pulldowns targeting histone modifications
+#As mitochondria do not have histones, remove mito DNA sequences from ChIP-Seq reference genome
 genome="hg38_NoMito"
 
 #select file
