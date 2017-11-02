@@ -1,7 +1,9 @@
 # chip-seq
 workflow for bulk chip-seq
 
-The scripts in this repository perform the main steps involved in aligning bulk ChIP-Seq files and visualizing in UCSC genome browser. The basic steps are below:
+The scripts in this repository perform the main steps involved in aligning bulk ChIP-Seq files and visualizing in UCSC genome browser.
+
+The basic steps are below (rna-seq steps are in a seperate repository):
 
 ![Alt text](https://github.com/ctrhodes/chip-seq/blob/master/workflows.png?raw=true)
 
