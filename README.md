@@ -7,7 +7,10 @@ Some of the commands, such as in the "macs callpeaks" script are written for bro
 
 The scripts also require the following software be installed an in your path:
 Bowtie aligner http://bowtie-bio.sourceforge.net/index.shtml
+
 SAMtools http://samtools.sourceforge.net/
+
 MACS2 peak caller https://github.com/taoliu/MACS
+
 BEDOPS https://bedops.readthedocs.io/en/latest/
 
