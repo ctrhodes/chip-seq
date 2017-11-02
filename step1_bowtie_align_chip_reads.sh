@@ -5,7 +5,7 @@ OUT_DIR = "/home/chris/project/chip/s2_aligned"
 
 cd $IN_DIR
 
-genome="PapAnu2NoM_Ensb"
+genome="hg38_NoMito"
 
 #select file
 for sample in *fastq
