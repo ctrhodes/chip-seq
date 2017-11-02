@@ -3,7 +3,7 @@ workflow for bulk chip-seq
 
 The scripts in this repository perform the main steps involved in aligning bulk ChIP-Seq files and visualizing in UCSC genome browser. The basic steps are below:
 
-![Alt text](./blob/master/workflows1.png?raw=true)
+![Alt text](https://github.com/ctrhodes/chip-seq/blob/master/workflows.png?raw=true)
 
 The scripts assume each chip file has a control or "input" file for macs comparison to treatment groups.
 
