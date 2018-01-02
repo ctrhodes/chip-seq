@@ -7,8 +7,8 @@ GENOME_ANNOTATION_DIR = "/genomes/annotation"
 cd $IN_DIR
 
 #if using MACS to perform peak calling:
-#per-sorting peaks not necessary, as MACS stdout is sorted using same scheme as bedops/bedtools
-#but its always nice to have genomic files sorted by chrom and position if possible
+#pre-sorting peaks in not necessary, as MACS stdout is sorted using same scheme as bedops/bedtools
+#but its always nice to have genomic files sorted by chrom and position, if possible
 
 #sort files
 sort-bed chipSeq_macs_out.broadPeak > chipSeq_peaks_sorted.bed
